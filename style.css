@@ -1,0 +1,50 @@
+body {
+background-color: aliceblue;
+}
+.wrapper {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgb(51, 51, 51);
+    padding: 40px;
+    color: palevioletred;
+    text-align: center;
+    border-radius: 20px;
+}
+.table {
+    padding: 30px 30px 30px 70px;
+
+}
+.wrapper h3 {
+    text-transform: uppercase;
+    margin-bottom: 10%;
+}
+#numinput {
+    height: 40px;
+    font-size: 22px;
+    border: 0px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.button{
+    background: magenta;
+    border: none;
+    color: black;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover {
+background-color: rgb(248, 171, 248);
+color: rgb(51, 50, 50);
+}
+
+
