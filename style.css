@@ -1,45 +1,45 @@
 body {
-background-color: aliceblue;
+background:linear-gradient(to right, black , magenta);
 }
 .wrapper {
-    width: 400px;
+    width: 340px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background: rgb(51, 51, 51);
-    padding: 40px;
+    background: black;
+    padding: 0px;
     color: palevioletred;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 0px;
 }
 .table {
-    padding: 30px 30px 30px 70px;
-
-}
-.wrapper h3 {
-    text-transform: uppercase;
-    margin-bottom: 10%;
+    padding: 0px;
 }
 #numinput {
-    height: 40px;
-    font-size: 22px;
+    height:70px;
+    width: 340px;
+    font-size: 30px;
     border: 0px;
-    border-radius: 10px;
-    padding: 5px;
+    border-radius: 0px;
+    padding: 0px;
+    background: rgb(68, 67, 67);
+    color: antiquewhite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .button{
     background: magenta;
     border: none;
     color: black;
     display: inline-block;
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     margin: 5px;
-    border-radius: 10px;
-    font-size: 22px;
+    border-radius: 5px;
+    font-size: 25px;
     font-weight: bold;
     cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
 }
 
 .button:hover {

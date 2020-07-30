@@ -2,13 +2,7 @@
 function display(num){
    document.getElementById("numinput").value = document.getElementById("numinput").value+num;
 }
-/*Result after performing operation */
-function equals(){
-    let ans = document.getElementById("numinput").value
-    if(ans){
-    document.getElementById("numinput").value=eval(ans);
-    }
-}
+
 /*Clear all content on the input area */
 function clear(){
     document.getElementById("numinput").value ="";
